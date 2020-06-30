@@ -9,12 +9,25 @@
 /* Begin PBXBuildFile section */
 		7B5D793224A9373F00D06860 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5D793124A9373F00D06860 /* AppDelegate.swift */; };
 		7B5D793424A9373F00D06860 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5D793324A9373F00D06860 /* SceneDelegate.swift */; };
-		7B5D793624A9373F00D06860 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5D793524A9373F00D06860 /* ViewController.swift */; };
 		7B5D793924A9373F00D06860 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B5D793724A9373F00D06860 /* Main.storyboard */; };
 		7B5D793B24A9374600D06860 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B5D793A24A9374600D06860 /* Assets.xcassets */; };
 		7B5D793E24A9374600D06860 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B5D793C24A9374600D06860 /* LaunchScreen.storyboard */; };
 		7B5D794924A9374600D06860 /* iPadSidebarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5D794824A9374600D06860 /* iPadSidebarTests.swift */; };
 		7B5D795424A9374600D06860 /* iPadSidebarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5D795324A9374600D06860 /* iPadSidebarUITests.swift */; };
+		7B5D796424A9501D00D06860 /* SplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5D796324A9501D00D06860 /* SplitViewController.swift */; };
+		7B5D796624A9503100D06860 /* SideBarViewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5D796524A9503100D06860 /* SideBarViewcontroller.swift */; };
+		7B5D796824A9503E00D06860 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5D796724A9503E00D06860 /* TabBarController.swift */; };
+		7B5D796A24A9505500D06860 /* TabsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5D796924A9505500D06860 /* TabsViewModel.swift */; };
+		7B5D796C24A9606A00D06860 /* UserProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5D796B24A9606A00D06860 /* UserProfileViewModel.swift */; };
+		7B5D797324A9635A00D06860 /* CollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5D797224A9635A00D06860 /* CollectionReusableView.swift */; };
+		7B5D797524A9780F00D06860 /* BaseXibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5D797424A9780F00D06860 /* BaseXibView.swift */; };
+		7B5D797724A9782700D06860 /* ProfileInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5D797624A9782700D06860 /* ProfileInfoView.swift */; };
+		7B5D797924A9785000D06860 /* ProfileInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B5D797824A9785000D06860 /* ProfileInfoView.xib */; };
+		7B5D797B24A978DA00D06860 /* VerticalLabelsStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5D797A24A978DA00D06860 /* VerticalLabelsStackView.swift */; };
+		7B5D797D24A9790900D06860 /* VerticalLabelsStackView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B5D797C24A9790900D06860 /* VerticalLabelsStackView.xib */; };
+		7B5D797F24A9798400D06860 /* ProfileDataView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B5D797E24A9798400D06860 /* ProfileDataView.xib */; };
+		7B5D798124A9799900D06860 /* ProfileDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5D798024A9799900D06860 /* ProfileDataView.swift */; };
+		7B5D798424A9888400D06860 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5D798324A9888400D06860 /* UIView+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +51,6 @@
 		7B5D792E24A9373F00D06860 /* iPadSidebar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPadSidebar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B5D793124A9373F00D06860 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7B5D793324A9373F00D06860 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7B5D793524A9373F00D06860 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7B5D793824A9373F00D06860 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7B5D793A24A9374600D06860 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B5D793D24A9374600D06860 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +61,20 @@
 		7B5D794F24A9374600D06860 /* iPadSidebarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iPadSidebarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B5D795324A9374600D06860 /* iPadSidebarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPadSidebarUITests.swift; sourceTree = "<group>"; };
 		7B5D795524A9374600D06860 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B5D796324A9501D00D06860 /* SplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitViewController.swift; sourceTree = "<group>"; };
+		7B5D796524A9503100D06860 /* SideBarViewcontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarViewcontroller.swift; sourceTree = "<group>"; };
+		7B5D796724A9503E00D06860 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		7B5D796924A9505500D06860 /* TabsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabsViewModel.swift; sourceTree = "<group>"; };
+		7B5D796B24A9606A00D06860 /* UserProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewModel.swift; sourceTree = "<group>"; };
+		7B5D797224A9635A00D06860 /* CollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionReusableView.swift; sourceTree = "<group>"; };
+		7B5D797424A9780F00D06860 /* BaseXibView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseXibView.swift; sourceTree = "<group>"; };
+		7B5D797624A9782700D06860 /* ProfileInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInfoView.swift; sourceTree = "<group>"; };
+		7B5D797824A9785000D06860 /* ProfileInfoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileInfoView.xib; sourceTree = "<group>"; };
+		7B5D797A24A978DA00D06860 /* VerticalLabelsStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalLabelsStackView.swift; sourceTree = "<group>"; };
+		7B5D797C24A9790900D06860 /* VerticalLabelsStackView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VerticalLabelsStackView.xib; sourceTree = "<group>"; };
+		7B5D797E24A9798400D06860 /* ProfileDataView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileDataView.xib; sourceTree = "<group>"; };
+		7B5D798024A9799900D06860 /* ProfileDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDataView.swift; sourceTree = "<group>"; };
+		7B5D798324A9888400D06860 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +125,12 @@
 		7B5D793024A9373F00D06860 /* iPadSidebar */ = {
 			isa = PBXGroup;
 			children = (
+				7B5D798224A9887700D06860 /* Helpers */,
+				7B5D797124A9634F00D06860 /* Views */,
+				7B5D796224A9500B00D06860 /* ViewControllers */,
+				7B5D796124A9500200D06860 /* ViewModel */,
 				7B5D793124A9373F00D06860 /* AppDelegate.swift */,
 				7B5D793324A9373F00D06860 /* SceneDelegate.swift */,
-				7B5D793524A9373F00D06860 /* ViewController.swift */,
 				7B5D793724A9373F00D06860 /* Main.storyboard */,
 				7B5D793A24A9374600D06860 /* Assets.xcassets */,
 				7B5D793C24A9374600D06860 /* LaunchScreen.storyboard */,
@@ -126,6 +155,48 @@
 				7B5D795524A9374600D06860 /* Info.plist */,
 			);
 			path = iPadSidebarUITests;
+			sourceTree = "<group>";
+		};
+		7B5D796124A9500200D06860 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7B5D796924A9505500D06860 /* TabsViewModel.swift */,
+				7B5D796B24A9606A00D06860 /* UserProfileViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7B5D796224A9500B00D06860 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7B5D796324A9501D00D06860 /* SplitViewController.swift */,
+				7B5D796524A9503100D06860 /* SideBarViewcontroller.swift */,
+				7B5D796724A9503E00D06860 /* TabBarController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		7B5D797124A9634F00D06860 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7B5D797224A9635A00D06860 /* CollectionReusableView.swift */,
+				7B5D797824A9785000D06860 /* ProfileInfoView.xib */,
+				7B5D797424A9780F00D06860 /* BaseXibView.swift */,
+				7B5D797624A9782700D06860 /* ProfileInfoView.swift */,
+				7B5D797A24A978DA00D06860 /* VerticalLabelsStackView.swift */,
+				7B5D797C24A9790900D06860 /* VerticalLabelsStackView.xib */,
+				7B5D797E24A9798400D06860 /* ProfileDataView.xib */,
+				7B5D798024A9799900D06860 /* ProfileDataView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7B5D798224A9887700D06860 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				7B5D798324A9888400D06860 /* UIView+Extensions.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +302,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B5D797924A9785000D06860 /* ProfileInfoView.xib in Resources */,
 				7B5D793E24A9374600D06860 /* LaunchScreen.storyboard in Resources */,
+				7B5D797F24A9798400D06860 /* ProfileDataView.xib in Resources */,
+				7B5D797D24A9790900D06860 /* VerticalLabelsStackView.xib in Resources */,
 				7B5D793B24A9374600D06860 /* Assets.xcassets in Resources */,
 				7B5D793924A9373F00D06860 /* Main.storyboard in Resources */,
 			);
@@ -258,9 +332,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B5D793624A9373F00D06860 /* ViewController.swift in Sources */,
+				7B5D797324A9635A00D06860 /* CollectionReusableView.swift in Sources */,
+				7B5D797524A9780F00D06860 /* BaseXibView.swift in Sources */,
+				7B5D798124A9799900D06860 /* ProfileDataView.swift in Sources */,
+				7B5D796C24A9606A00D06860 /* UserProfileViewModel.swift in Sources */,
 				7B5D793224A9373F00D06860 /* AppDelegate.swift in Sources */,
+				7B5D798424A9888400D06860 /* UIView+Extensions.swift in Sources */,
+				7B5D797724A9782700D06860 /* ProfileInfoView.swift in Sources */,
+				7B5D796A24A9505500D06860 /* TabsViewModel.swift in Sources */,
+				7B5D796624A9503100D06860 /* SideBarViewcontroller.swift in Sources */,
+				7B5D797B24A978DA00D06860 /* VerticalLabelsStackView.swift in Sources */,
+				7B5D796824A9503E00D06860 /* TabBarController.swift in Sources */,
 				7B5D793424A9373F00D06860 /* SceneDelegate.swift in Sources */,
+				7B5D796424A9501D00D06860 /* SplitViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
